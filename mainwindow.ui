@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1383</width>
+    <height>1002</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>16777215</width>
+      <height>16777215</height>
+     </rect>
+    </property>
+    <widget class="QLabel" name="img">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>1500</width>
+       <height>641</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Maximum" vsizetype="Maximum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="choose">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>680</y>
+       <width>100</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>OpenHandCursor</cursorShape>
+     </property>
+     <property name="text">
+      <string>选择图片</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="process">
+     <property name="geometry">
+      <rect>
+       <x>890</x>
+       <y>680</y>
+       <width>92</width>
+       <height>51</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>加工</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="mode">
+     <property name="geometry">
+      <rect>
+       <x>570</x>
+       <y>690</y>
+       <width>91</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>米字格</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>九宫格</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>田字格</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="lineBox">
+     <property name="geometry">
+      <rect>
+       <x>700</x>
+       <y>690</y>
+       <width>89</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <item>
+      <property name="text">
+       <string>虚线</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>实线</string>
+      </property>
+     </item>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1383</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
